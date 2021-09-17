@@ -1,4 +1,6 @@
-# GraphWalker [Report](www.google.com)
+# GraphWalker [[Report](https://github.com/Barsovich/GraphWalker/blob/master/GraphWalker.pdf)]
 ## A Novel Approach For Knowledge Graph-based Question Answering
 
 The task of question answering (QA) aims to find the answer to a question formulated in natural language. To fulfill this task, a knowledge base is required, where the answer can be queried. Knowledge graphs (KG) are one such form of knowl- edge base, structured as a relational graph, with nodes representing entities and edges representing relations between them. We will be focusing on the task of knowledge graph-based question answering (KGQA), where the goal is to find the node in the graph that represents the answer entity, starting from the node that represents the source entity in the question text. A problem that occurs during the KGQA task is the case of a large number of hops between the source and target entities in the graph. In such cases, the amount of nodes that need to be considered increases signifi- cantly. In our paper, we introduce a new approach and an implementation, Graphwalker, which abstracts the task from the number of hops between the source and target.
+
+See `setup.sh` for the project setup and `train.sh` for training and evaluation.

@@ -1,0 +1,19 @@
+python main.py \
+  --mode train \
+  --freeze True \
+  --batch_size 128 \
+  --validate_every 1 \
+  --hops 3 \
+  --lr 0.0005 \
+  --decay 1.0 \
+  --model ComplEx \
+  --ls 0.0 \
+  --use_cuda True \
+  --num_workers 0 \
+  --kg_type full \
+  --max_neighbor_count 150 \
+  --nb_epochs 1000 \
+  --patience 1000 \
+  --tensorboard_log_folder runs/ \
+  --relation_embedding_len 50 \
+  --entity_embedding_len 50 
